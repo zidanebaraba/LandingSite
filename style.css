@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.Halaman1 {
+    background-image: url('https://pbs.twimg.com/profile_images/1305883698471018496/_4BfrCaP_400x400.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 900px;
+    text-align: center;
+}
+
+/* =============================================================================================================================== */
+
+.clickable {
+    text-decoration: none;
+    padding: 12px;
+    background-color: transparent;
+    color: black;
+}
+
+.logo {
+    float: left;
+}
+
+.navbar{
+    text-align: right;
+}
+
+.nav-bg {
+    background: grey; 
+    height: 50px;
+}
+
+.mobile {
+    display: none;
+}
+
+li {
+    font-size: 22px;
+    /* padding: 15px 25px; */
+    display: inline-block;
+    padding-top: 12px;
+}
+
+li a:hover {
+    background-color: green;
+    color: black;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+} 
+
+@media only screen and (max-width: 600px) {
+    .mobile {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+}
+
+/* ================================================================================================================= */
+
+#AboutMe {
+    padding: 2em 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.gambar-icon {
+    max-width: 12em;
+}
+
+.kenalan, .coba {
+    text-align: center;
+}
+
+.coba {
+    /* display: inline-block; */
+    margin-top: 5em;
+    /* float: inline-start; */
+}
+
+.pendidikan, .keterampilan, .percobaan {
+    text-align: center; 
+    display: inline-block;
+}
+
+.konten-kenalan {
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 24em;
+    margin: 1em auto;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .pendidikan, .keterampilan, .percobaan {
+    width: 49.5%;
+    vertical-align: top;
+    }
+}
+/* ========================================================================================================================================================= */
+
+.heading {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.gambar-sertif {
+    max-width: 25em;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+}
+
+/* ========================================================================================================================================================= */
+
+footer {
+    text-align: center;
+    background-color: black;
+    font-size: medium;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
